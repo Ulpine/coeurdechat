@@ -8,4 +8,5 @@
 @import "./components/reset.css";
 @import "./components/utilities.css";
 @import "./components/responsive.css";
+@import "./components/values-section.css";
 @import "./components/variables.css";
