@@ -10,3 +10,5 @@
 @import "./components/responsive.css";
 @import "./components/values-section.css";
 @import "./components/variables.css";
+
+@import "./pages/blog.css";
