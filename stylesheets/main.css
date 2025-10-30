@@ -11,4 +11,5 @@
 @import "./components/values-section.css";
 @import "./components/variables.css";
 
+@import "./pages/article.css";
 @import "./pages/blog.css";

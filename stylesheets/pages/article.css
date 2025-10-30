@@ -1,0 +1,195 @@
+/* ============================================
+   ARTICLES CSS - Fichier centralisé
+   ============================================ */
+
+/* ARTICLE BANNER */
+.article-banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ARTICLE WRAPPER */
+.article-content-wrapper {
+    background-color: #f5f5f5;
+    padding: 3rem 2rem;
+}
+
+/* ARTICLE CONTAINER */
+.article-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 8px;
+}
+
+/* ARTICLE HEADER */
+.article-header {
+    margin-bottom: 2rem;
+}
+
+.article-headline {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-family: 'Georgia', serif;
+    line-height: 1.3;
+}
+
+.article-meta {
+    font-size: 0.85rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ARTICLE BODY */
+.article-body {
+    color: #333;
+    line-height: 1.8;
+}
+
+.article-body h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+    margin: 2rem 0 1rem 0;
+    font-family: 'Georgia', serif;
+}
+
+.article-body h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin: 1.5rem 0 0.8rem 0;
+}
+
+.article-body p {
+    margin-bottom: 1.2rem;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.article-body strong {
+    font-weight: 600;
+    color: #333;
+}
+
+.article-body em {
+    font-style: italic;
+    color: #555;
+}
+
+.article-body a {
+    color: #c13384;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.article-body a:hover {
+    text-decoration: underline;
+}
+
+/* DIALOGUE BLOCKS */
+.dialogue {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid #c13384;
+    font-style: italic;
+    color: #555;
+}
+
+.dialogue p {
+    margin-bottom: 0.5rem;
+}
+
+/* ARTICLE TIP/ASTUCE */
+.article-tip {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin: 2rem 0;
+    border-left: 4px solid #c13384;
+}
+
+.article-tip p {
+    margin-bottom: 0;
+    font-style: italic;
+    color: #555;
+}
+
+/* ARTICLE LINK BOX */
+.article-link-box {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.article-link-box p {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.article-link-box a {
+    color: #c13384;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    word-break: break-all;
+}
+
+.article-link-box a:hover {
+    text-decoration: underline;
+}
+
+/* ARTICLE FOOTER */
+.article-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.article-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #c13384;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.article-back-link:hover {
+    gap: 1rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .article-banner {
+        height: 250px;
+    }
+
+    .article-container {
+        padding: 1.5rem;
+        margin: 0 1rem;
+    }
+
+    .article-headline {
+        font-size: 1.6rem;
+    }
+
+    .article-body p {
+        text-align: left;
+    }
+}
