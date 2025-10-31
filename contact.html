@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coeur de Chat - Accessoires pour chats</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="./javascripts/faq.js" defer></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+  <nav>
+      <div class="nav-logo">
+          <a href="./index.html"><img src="./images/logo-nobg.png" alt="logo Coeur de Chat"></a>
+          <span>Coeur de Chat</span>
+      </div>
+      <ul class="nav-menu">
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="../products.html">Produits testés</a></li>
+          <li><a href="../blog.html">Les aventures de Rio et Vador</a></li>
+          <li><a href="../a_propos.html">Notre histoire</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+      </ul>
+  </nav>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1 class="contact-title">Parlons Partenariat</h1>
+                <p class="contact-subtitle">Développons ensemble une stratégie gagnante pour votre marque</p>
+            </div>
+
+            <div class="contact-intro">
+                <h2>Vous représentez une marque dédiée aux animaux de compagnie ?</h2><br>
+                <p>Chez <span class="contact-highlight">Coeur de Chat</span>, nous mettons en avant des produits que nous aimons vraiment — testés et approuvés par nos deux experts à moustaches, Rio et Vador  <i class="fas fa-paw"></i></p>
+                <p>Notre objectif : partager des découvertes de qualité avec une communauté passionnée, exigeante et bienveillante.</p>
+                <p>Si vous souhaitez faire découvrir vos produits à travers des avis authentiques et des contenus engageants, <span class="contact-highlight">contactez-nous</span> : nous serons ravis d’en discuter !</p>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h2 class="form-title">Envoyez-nous votre demande</h2>
+
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nom">Nom de la marque <span class="required">*</span></label>
+                            <input type="text" id="nom" name="nom" placeholder="Nom de votre entreprise" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="contact@votreentreprise.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telephone">Numéro de téléphone</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="+33 6 XX XX XX XX">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sujet">Sujet de votre demande <span class="required">*</span></label>
+                        <select id="sujet" name="sujet" required>
+                            <option value="">-- Sélectionnez un sujet --</option>
+                            <option value="partenariat">Partenariat produit</option>
+                            <option value="collaboration">Collaboration longue durée</option>
+                            <option value="sponsoring">Sponsoring</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Votre message <span class="required">*</span></label>
+                        <textarea id="message" name="message" placeholder="Décrivez votre produit, vos attentes et vos objectifs..." required></textarea>
+                    </div>
+
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="rgpd" name="rgpd" required>
+                        <label for="rgpd">J'accepte que mes données soient traitées selon notre <a href="#" style="color: #c13384;">politique de confidentialité</a></label>
+                    </div>
+
+                    <div class="form-footer">
+                        <p class="form-info">Nous vous répondrons dans les 48h</p>
+                        <button type="submit" class="btn btn-primary">Envoyer la demande</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact-benefits">
+                <h3 class="benefits-title">Pourquoi choisir Coeur de Chat ?</h3>
+
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h4 class="benefit-title">Tests Authentiques</h4>
+                        <p class="benefit-description">Chaque produit est rigoureusement testé par Rio et Vador avant approbation finale</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="benefit-title">Communauté Engagée</h4>
+                        <p class="benefit-description">Une audience fidèle et passionnée par le bien-être animal et la qualité</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="benefit-title">Crédibilité Maximale</h4>
+                        <p class="benefit-description">Notre approche transparente et honnête inspire la confiance à nos lecteurs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+              <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./products.html">Produits testés</a></li>
+                    <li><a href="./blog.html">Les aventures de Rio et Vador</a></li>
+                    <li><a href="./a_propos.html">Notre histoire</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-brand">
+                <a href="./index.html"><img src="./images/logo-nobg.png" alt="Logo Coeur de Chat" class="footer-brand-image"></a>
+                <h3>Coeur de Chat</h3>
+                <p class="footer-tagline">Le meilleur pour votre chat !</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com" target="_blank" title="Instagram">📷</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025, Coeur de Chat</p>
+            <div class="footer-links">
+                <a href="#confidentialite">Politique de confidentialité</a>
+                <span>·</span>
+                <a href="#mentions">Mentions légales</a>
+                <span>·</span>
+                <a href="#remboursement">Politique de remboursement</a>
+                <span>·</span>
+                <a href="#conditions">Conditions d'utilisation</a>
+                <span>·</span>
+                <a href="#coordonnees">Coordonnées</a>
+                <span>·</span>
+                <a href="#cookies">Préférences en matière de cookies</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
