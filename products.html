@@ -29,16 +29,25 @@
             <h1 class="products-title">Tous nos produits testés</h1>
             <p class="products-subtitle">Découvrez la sélection complète de produits pour chats rigoureusement testés par Rio et Vador.</p>
 
-            <div class="products-grid">
+            <div class="products-filter">
+                <label class="filter-label">Trier par :</label>
+                <select id="sortSelect" class="filter-select" onchange="sortProducts()">
+                    <option value="default">Défaut</option>
+                    <option value="high-to-low">Note : Élevée à Basse</option>
+                    <option value="low-to-high">Note : Basse à Élevée</option>
+                </select>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
                 <!-- Produit 1 -->
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="./images/arbre à chat/Fond blanc 1.jpg" alt="Arbre à Chat Haut" class="product-image-main">
-                        <img src="./images/arbre à chat/IMG_6191.jpeg" alt="Arbre à Chat Haut - Vue 2" class="product-image-hover">
+                        <img src="./images/produits/arbre à chat/Fond blanc 1.jpg" alt="Arbre à Chat Haut" class="product-image-main">
+                        <img src="./images/produits/arbre à chat/IMG_6191.jpeg" alt="Arbre à Chat Haut - Vue 2" class="product-image-hover">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Arbre à Chat Haut</h3>
-                        <div class="product-rating">
+                        <div class="product-rating" data-rating="5" data-product="1">
                             <span class="product-rating-stars" data-product="1">
                                 <span class="stars">★★★★★</span>
                                 <span>Notre avis</span>
@@ -51,12 +60,12 @@
                 <!-- Produit 2 -->
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="./images/brosse/brosse.png" alt="Brosse spéciale poils de chat" class="product-image-main">
-                        <img src="./images/brosse/Poils.jpg" alt="Brosse spéciale poils de chat - Vue 2" class="product-image-hover">
+                        <img src="./images/produits/brosse/brosse.png" alt="Brosse spéciale poils de chat" class="product-image-main">
+                        <img src="./images/produits/brosse/Poils.jpg" alt="Brosse spéciale poils de chat - Vue 2" class="product-image-hover">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Brosse spéciale poils de chat - Douceur & efficacité pour un pelage sain</h3>
-                        <div class="product-rating">
+                        <div class="product-rating" data-rating="5" data-product="2">
                             <span class="product-rating-stars" data-product="2">
                                 <span class="stars">★★★★★</span>
                                 <span>Notre avis</span>
@@ -69,12 +78,12 @@
                 <!-- Produit 3 -->
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="./images/coucouche/coucouche1.jpeg" alt="Nid douillet" class="product-image-main">
-                        <img src="./images/coucouche/coucouche2.jpg" alt="Nid douillet - Vue 2" class="product-image-hover">
+                        <img src="./images/produits/coucouche/coucouche1.jpeg" alt="Nid douillet" class="product-image-main">
+                        <img src="./images/produits/coucouche/coucouche2.jpg" alt="Nid douillet - Vue 2" class="product-image-hover">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Nid douillet</h3>
-                        <div class="product-rating">
+                        <div class="product-rating" data-rating="5" data-product="3">
                             <span class="product-rating-stars" data-product="3">
                                 <span class="stars">★★★★★</span>
                                 <span>Notre avis</span>
@@ -87,12 +96,12 @@
                 <!-- Produit 4 -->
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="./images/distributeur/Distributeur-double-camera.jpg" alt="Distributeur Automatique de Croquettes" class="product-image-main">
-                        <img src="./images/distributeur/Deux chats au distributeur.jpg" alt="Distributeur Automatique de Croquettes - Vue 2" class="product-image-hover">
+                        <img src="./images/produits/distributeur/Distributeur-double-camera.jpg" alt="Distributeur Automatique de Croquettes" class="product-image-main">
+                        <img src="./images/produits/distributeur/Deux chats au distributeur.jpg" alt="Distributeur Automatique de Croquettes - Vue 2" class="product-image-hover">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Distributeur Automatique de Croquettes (avec ou sans caméra)</h3>
-                        <div class="product-rating">
+                        <div class="product-rating" data-rating="5" data-product="4">
                             <span class="product-rating-stars" data-product="4">
                                 <span class="stars">★★★★★</span>
                                 <span>Notre avis</span>
@@ -105,14 +114,14 @@
                 <!-- Produit 5 -->
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="./images/product-5-main.jpg" alt="Brosse pour chat avec manche" class="product-image-main">
-                        <img src="./images/product-5-hover.jpg" alt="Brosse pour chat avec manche - Vue 2" class="product-image-hover">
+                        <img src="./images/produits/brosse2/Position.jpg" alt="Brosse pour chat avec manche" class="product-image-main">
+                        <img src="./images/produits/brosse2/Copine-brosse.jpg" alt="Brosse pour chat avec manche - Vue 2" class="product-image-hover">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Brosse pour chat avec manche</h3>
-                        <div class="product-rating">
+                        <div class="product-rating" data-rating="4" data-product="5">
                             <span class="product-rating-stars" data-product="5">
-                                <span class="stars">★★★★★</span>
+                                <span class="stars">★★★★☆</span>
                                 <span>Notre avis</span>
                             </span>
                         </div>
@@ -123,12 +132,12 @@
                 <!-- Produit 6 -->
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="./images/product-6-main.jpg" alt="Fontaine à eau automatique pour chat" class="product-image-main">
-                        <img src="./images/product-6-hover.jpg" alt="Fontaine à eau automatique pour chat - Vue 2" class="product-image-hover">
+                        <img src="./images/produits/fontaine/Fontainevador.jpg" alt="Fontaine à eau automatique pour chat" class="product-image-main">
+                        <img src="./images/produits/fontaine/fontaine.jpg" alt="Fontaine à eau automatique pour chat - Vue 2" class="product-image-hover">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Fontaine à eau automatique pour chat 3L</h3>
-                        <div class="product-rating">
+                        <div class="product-rating" data-rating="5" data-product="6">
                             <span class="product-rating-stars" data-product="6">
                                 <span class="stars">★★★★★</span>
                                 <span>Notre avis</span>
@@ -141,12 +150,12 @@
                 <!-- Produit 7 -->
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="./images/product-7-main.jpg" alt="Gamelle en acier inoxydable" class="product-image-main">
-                        <img src="./images/product-7-hover.jpg" alt="Gamelle en acier inoxydable - Vue 2" class="product-image-hover">
+                        <img src="./images/produits/gamelle/Gamellerio.jpg" alt="Gamelle en acier inoxydable" class="product-image-main">
+                        <img src="./images/produits/gamelle/Gamellevador.jpg" alt="Gamelle en acier inoxydable - Vue 2" class="product-image-hover">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Gamelle en acier inoxydable</h3>
-                        <div class="product-rating">
+                        <div class="product-rating" data-rating="5" data-product="7">
                             <span class="product-rating-stars" data-product="7">
                                 <span class="stars">★★★★★</span>
                                 <span>Notre avis</span>
@@ -159,13 +168,139 @@
                 <!-- Produit 8 -->
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="./images/product-8-main.jpg" alt="Tour de jeu interactive pour chat" class="product-image-main">
-                        <img src="./images/product-8-hover.jpg" alt="Tour de jeu interactive pour chat - Vue 2" class="product-image-hover">
+                        <img src="./images/produits/3 balles circulantes/Jeubleu.jpg" alt="Tour de jeu interactive pour chat" class="product-image-main">
+                        <img src="./images/produits/3 balles circulantes/IMG-20250618-WA0012.jpg" alt="Tour de jeu interactive pour chat - Vue 2" class="product-image-hover">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Tour de jeu interactive pour chat - 8 niveaux & balles colorées</h3>
-                        <div class="product-rating">
+                        <div class="product-rating" data-rating="5" data-product="8">
                             <span class="product-rating-stars" data-product="8">
+                                <span class="stars">★★★★★</span>
+                                <span>Notre avis</span>
+                            </span>
+                        </div>
+                        <a href="#" class="discover-btn">Découvrir le produit</a>
+                    </div>
+                </div>
+
+                <!-- Produit 9 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="./images/produits/sac de transport/IMG-20250627-WA0009.jpg" alt="Sac de transport pour chats" class="product-image-main">
+                        <img src="./images/produits/sac de transport/IMG-20250627-WA0008.jpg" alt="Sac de transport pour chats - Vue 2" class="product-image-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sac de transport pour chats</h3>
+                        <div class="product-rating" data-rating="5" data-product="9">
+                            <span class="product-rating-stars" data-product="9">
+                                <span class="stars">★★★★★</span>
+                                <span>Notre avis</span>
+                            </span>
+                        </div>
+                        <a href="#" class="discover-btn">Découvrir le produit</a>
+                    </div>
+                </div>
+
+                <!-- Produit 10 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="./images/produits/canne à pêche/Vadorsouris.jpg" alt="Canne à pêche pour chat" class="product-image-main">
+                        <img src="./images/produits/canne à pêche/Riovadorcanne.jpg" alt="Canne à pêche pour chat" class="product-image-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Canne à pêche pour chat</h3>
+                        <div class="product-rating" data-rating="5" data-product="10">
+                            <span class="product-rating-stars" data-product="10">
+                                <span class="stars">★★★★★</span>
+                                <span>Notre avis</span>
+                            </span>
+                        </div>
+                        <a href="#" class="discover-btn">Découvrir le produit</a>
+                    </div>
+                </div>
+
+                <!-- Produit 11 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="./images/produits/litière/Vadorlitiere.jpg" alt="Bac à litière pour chat avec pelle" class="product-image-main">
+                        <img src="./images/produits/litière/vadorcache.jpg" alt="Bac à litière pour chat avec pelle - Vue 2" class="product-image-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Bac à litière pour chat avec pelle</h3>
+                        <div class="product-rating" data-rating="5" data-product="11">
+                            <span class="product-rating-stars" data-product="11">
+                                <span class="stars">★★★★★</span>
+                                <span>Notre avis</span>
+                            </span>
+                        </div>
+                        <a href="#" class="discover-btn">Découvrir le produit</a>
+                    </div>
+                </div>
+
+                <!-- Produit 12 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="./images/produits/pelle/pelle.webp" alt="Pelle à litière" class="product-image-main">
+                        <img src="./images/produits/pelle/pelle2.webp" alt="Pelle à litière - Vue 2" class="product-image-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pelle à litière</h3>
+                        <div class="product-rating" data-rating="4.5" data-product="12">
+                            <span class="product-rating-stars" data-product="12">
+                                <span class="stars">★★★★☆</span>
+                                <span>Notre avis</span>
+                            </span>
+                        </div>
+                        <a href="#" class="discover-btn">Découvrir le produit</a>
+                    </div>
+                </div>
+
+                <!-- Produit 13 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="./images/produits/pistolet/pistoletvador.jpg" alt="Pistolet lanceur de peluches pour chat" class="product-image-main">
+                        <img src="./images/produits/pistolet/pistolet.jpg" alt="Pistolet lanceur de peluches pour chat - Vue 2" class="product-image-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pistolet lanceur de peluches pour chat</h3>
+                        <div class="product-rating" data-rating="5" data-product="13">
+                            <span class="product-rating-stars" data-product="13">
+                                <span class="stars">★★★★★</span>
+                                <span>Notre avis</span>
+                            </span>
+                        </div>
+                        <a href="#" class="discover-btn">Découvrir le produit</a>
+                    </div>
+                </div>
+
+                <!-- Produit 14 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="./images/produits/Balle intelligente/balle verte.jpg" alt="Balle intelligente pour chat" class="product-image-main">
+                        <img src="./images/produits/Balle intelligente/balle rouge.jpg" alt="Balle intelligente pour chat - Vue 2" class="product-image-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Balle intelligente pour chat</h3>
+                        <div class="product-rating" data-rating="4" data-product="14">
+                            <span class="product-rating-stars" data-product="14">
+                                <span class="stars">★★★★☆</span>
+                                <span>Notre avis</span>
+                            </span>
+                        </div>
+                        <a href="#" class="discover-btn">Découvrir le produit</a>
+                    </div>
+                </div>
+
+                <!-- Produit 15 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="./images/produits/maisonnette/2chatsmaison.jpg" alt="Maisonnette pour chat" class="product-image-main">
+                        <img src="./images/produits/maisonnette/Vadormimi.jpg" alt="Maisonnette pour chat - Vue 2" class="product-image-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Maisonnette pour chat</h3>
+                        <div class="product-rating" data-rating="5" data-product="15">
+                            <span class="product-rating-stars" data-product="15">
                                 <span class="stars">★★★★★</span>
                                 <span>Notre avis</span>
                             </span>

@@ -87,3 +87,44 @@ document.addEventListener('keydown', function(e) {
         closeReviewModal();
     }
 });
+
+
+// Trier les produits par note
+// Ordre original des produits
+let originalOrder = [];
+
+// Sauvegarder l'ordre original au chargement
+document.addEventListener('DOMContentLoaded', function() {
+    const grid = document.getElementById('productsGrid');
+    originalOrder = Array.from(grid.querySelectorAll('.product-card'));
+});
+
+function sortProducts() {
+    const sortValue = document.getElementById('sortSelect').value;
+    const grid = document.getElementById('productsGrid');
+    const cards = Array.from(grid.querySelectorAll('.product-card'));
+
+    if (sortValue === 'default') {
+        // Retourner à l'ordre original
+        cards.sort((a, b) => {
+            return originalOrder.indexOf(a) - originalOrder.indexOf(b);
+        });
+    } else if (sortValue === 'high-to-low') {
+        cards.sort((a, b) => {
+            const ratingA = parseFloat(a.querySelector('.product-rating').getAttribute('data-rating'));
+            const ratingB = parseFloat(b.querySelector('.product-rating').getAttribute('data-rating'));
+            return ratingB - ratingA;
+        });
+    } else if (sortValue === 'low-to-high') {
+        cards.sort((a, b) => {
+            const ratingA = parseFloat(a.querySelector('.product-rating').getAttribute('data-rating'));
+            const ratingB = parseFloat(b.querySelector('.product-rating').getAttribute('data-rating'));
+            return ratingA - ratingB;
+        });
+    }
+
+    // Réinsérer les cartes triées
+    cards.forEach(card => {
+        grid.appendChild(card);
+    });
+}
