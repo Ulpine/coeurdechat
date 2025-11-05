@@ -14,14 +14,14 @@ const productReviews = {
     3: {
         name: "Nid douillet",
         title: "Le cocon de Vador",
-        review: "Ce premier lit pour Vador a tout de suite été un succès ! Il adorait s’y blottir et se faufiler à l’intérieur. Rio l’a testé aussi, mais lui préférait se poser sur le dessus du “chapeau”. Avec le temps, Vador y va beaucoup moins souvent, mais le rapport qualité-prix reste très correct — on met donc 4 étoiles.",
+        review: "Ce premier lit pour Vador a tout de suite été un succès ! Il adorait s’y blottir et se faufiler à l’intérieur. Rio l’a testé aussi, mais lui préférait se poser sur le dessus du “chapeau”. Avec le temps, Vador y va beaucoup moins souvent, mais le rapport qualité-prix reste correct — on met donc 4 étoiles.",
         link: "https://fr.aliexpress.com/item/1005007550213999.html?spm=a2g0o.productlist.seoads.7.28524c3cwRRtQb&p4p_pvid=202510300703583163593132390250000088277_4&gatewayAdapt=glo2fra"
     },
     4: {
         name: "Distributeur Automatique de Croquettes",
         title: "Praticité au quotidien",
-        review: "Vador peut maintenant se servir seul ! La caméra intégrée est un plus pour vérifier qu'il ne triche pas. Rio a d'abord hésité mais s'y est fait. Parfait pour les journées chargées.",
-        link: "https://example.com/product-4"
+        review: "Ce distributeur de croquettes est vraiment pratique ! Il nous permet de garder un bon rythme de repas matin et soir, même quand nous partons en week-end. Plutôt que de remplir deux grandes gamelles, on peut contrôler facilement les portions que Rio et Vador mangent en notre absence. Petit bonus (parce qu’on est un peu gaga) : on a choisi le modèle avec deux gamelles et une caméra intégrée pour garder un œil sur eux. L’application de gestion est plutôt simple et fonctionne bien.",
+        link: "https://fr.aliexpress.com/item/1005006750761962.html?supplyId=159831080&gatewayAdapt=glo2fra"
     },
     5: {
         name: "Brosse pour chat avec manche",
