@@ -32,8 +32,8 @@ const productReviews = {
     6: {
         name: "Fontaine à eau automatique pour chat 3L",
         title: "Hydratation garantie",
-        review: "Excellente fontaine ! Rio l'adore et boit beaucoup plus depuis qu'elle est à la maison. L'eau reste fraîche et le filtre est facile à remplacer. Vador est plus indifférent mais l'utilise quand même.",
-        link: "https://example.com/product-6"
+        review: "Nous avons testé plusieurs fontaines avant celle-ci, et c’est clairement notre préférée !Sa grande capacité de 3 L est très pratique : on change l’eau une fois par semaine et le filtre environ une fois par mois. Elle est quasiment silencieuse, sauf quand elle arrive presque à vide, et n’émet aucune lumière — parfait pour la nuit. Un excellent rapport qualité-prix, donc 5 étoiles bien méritées !",
+        link: "https://fr.aliexpress.com/item/1005005583190954.html?supplyId=159831080&gatewayAdapt=glo2fra"
     },
     7: {
         name: "Gamelle en acier inoxydable",
