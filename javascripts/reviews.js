@@ -1,21 +1,21 @@
 const productReviews = {
     1: {
         name: "Arbre à Chat Haut",
-        title: "Un véritable paradis pour nos chats",
-        review: "Rio et Vador adorent cet arbre ! Les plateformes sont bien positionnées à la bonne hauteur, et les deux adorent se percher au sommet pour observer. Très robuste et stable, c'est un investissement qui en vaut vraiment la peine.",
-        link: "https://example.com/product-1"
+        title: "Rio et Vador l'adorent !",
+        review: "Rio et Vador ont tout de suite adopté cet arbre à chat ! Les deux plateformes en hauteur sont parfaites pour eux, les poteaux à griffer et les petites cachettes aussi. Vador adore particulièrement le hamac ! Seul petit bémol : il arrive à décrocher les balles suspendues, et le vendeur ne propose pas encore de pièces de rechange.",
+        link: "https://fr.aliexpress.com/item/1005007463308356.html?supplyId=159831080&gatewayAdapt=glo2fra"
     },
     2: {
         name: "Brosse spéciale poils de chat",
-        title: "Efficacité garantie et chats satisfaits",
-        review: "Cette brosse élimine vraiment les poils morts ! Rio n'a jamais aimé être brossé, mais avec celle-ci, il accepte de mieux en mieux. Vador adore ça. Aucun arrachage de poils, très douce et efficace.",
-        link: "https://example.com/product-2"
+        title: "Efficace et chats satisfaits",
+        review: "Très satisfaits de cette brosse ! Rio adore les séances de brossage, et les poils se retirent très facilement. Par contre, dès qu’on active la vapeur, il prend peur et refuse de se laisser faire. Pour Vador, c’est un peu différent : il ne reste pas vraiment en place, mais il semble quand même apprécier la brosse à sa manière.",
+        link: "https://fr.aliexpress.com/item/1005007557413769.html?spm=a2g0o.productlist.main.31.20ea15dapTuo6q&algo_pvid=a928d201-a020-425a-8d12-809dd49cb70d&algo_exp_id=a928d201-a020-425a-8d12-809dd49cb70d-32&pdp_ext_f=%7B%22order%22%3A%222582%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%215.57%213.09%21%21%2144.83%2124.86%21%402103956a17618321080847114e506c%2112000041285874692%21sea%21FR%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A80c1762f%3Bm03_new_user%3A-29895%3BpisId%3A5000000187633563&curPageLogUid=Un0Zhe3M4qbD&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007557413769%7C_p_origin_prod%3A"
     },
     3: {
         name: "Nid douillet",
-        title: "Le cocon parfait pour Vador",
-        review: "Depuis son arrivée, Vador ne quitte plus son nid douillet ! Il s'y glisse, invisible, au chaud. C'est devenu son endroit préféré pour dormir. Rio a retrouvé son lit ! Excellent rapport qualité-prix.",
-        link: "https://example.com/product-3"
+        title: "Le cocon de Vador",
+        review: "Ce premier lit pour Vador a tout de suite été un succès ! Il adorait s’y blottir et se faufiler à l’intérieur. Rio l’a testé aussi, mais lui préférait se poser sur le dessus du “chapeau”. Avec le temps, Vador y va beaucoup moins souvent, mais le rapport qualité-prix reste très correct — on met donc 4 étoiles.",
+        link: "https://fr.aliexpress.com/item/1005007550213999.html?spm=a2g0o.productlist.seoads.7.28524c3cwRRtQb&p4p_pvid=202510300703583163593132390250000088277_4&gatewayAdapt=glo2fra"
     },
     4: {
         name: "Distributeur Automatique de Croquettes",
