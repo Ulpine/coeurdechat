@@ -9,7 +9,7 @@ const productReviews = {
         name: "Brosse spéciale poils de chat",
         title: "Efficace et chats satisfaits",
         review: "Très satisfaits de cette brosse ! Rio adore les séances de brossage, et les poils se retirent très facilement. Par contre, dès qu’on active la vapeur, il prend peur et refuse de se laisser faire. Pour Vador, c’est un peu différent : il ne reste pas vraiment en place, mais il semble quand même apprécier la brosse à sa manière.",
-        link: "https://fr.aliexpress.com/item/1005007557413769.html?spm=a2g0o.productlist.main.31.20ea15dapTuo6q&algo_pvid=a928d201-a020-425a-8d12-809dd49cb70d&algo_exp_id=a928d201-a020-425a-8d12-809dd49cb70d-32&pdp_ext_f=%7B%22order%22%3A%222582%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%215.57%213.09%21%21%2144.83%2124.86%21%402103956a17618321080847114e506c%2112000041285874692%21sea%21FR%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A80c1762f%3Bm03_new_user%3A-29895%3BpisId%3A5000000187633563&curPageLogUid=Un0Zhe3M4qbD&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007557413769%7C_p_origin_prod%3A"
+        link: "https://fr.aliexpress.com/item/1005007102314234.html?supplyId=159831080&gatewayAdapt=glo2fra"
     },
     3: {
         name: "Nid douillet",
@@ -25,9 +25,9 @@ const productReviews = {
     },
     5: {
         name: "Brosse pour chat avec manche",
-        title: "Ergonomique et efficace",
-        review: "Le manche facilite vraiment les séances de toilettage. Plus facile à utiliser que les autres brosses pour des zones spécifiques. Rio et Vador la tolèrent bien. Bonne qualité générale.",
-        link: "https://example.com/product-5"
+        title: "Ergonomique",
+        review: "Nous avons voulu tester une autre brosse, cette fois avec un manche. Elle est pratique à tenir, mais malheureusement moins efficace que celle que nous avions achetée auparavant. Elle attrape moins bien les poils, donc pour le même prix, nous préférons largement l’autre brosse.",
+        link: "https://fr.aliexpress.com/item/1005007102314234.html?supplyId=159831080&gatewayAdapt=glo2fra"
     },
     6: {
         name: "Fontaine à eau automatique pour chat 3L",
